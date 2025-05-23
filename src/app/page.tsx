@@ -221,6 +221,37 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="glass-panel p-8 mb-8">
+        <h2 className="text-2xl font-light mb-6">hobbies</h2>
+        <div className="space-y-6">
+          <div className="border-b border-gray-200 pb-6">
+            <div className="flex items-center gap-3 mb-1">
+              <h3 className="text-xl">dj</h3>
+              <a
+                href="https://drive.google.com/file/d/1xSQ-YOxPWzgxePEjNDGVOQNjNTXJb6Ht/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3 py-1 text-sm text-gray-600 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+              >
+                listen →
+              </a>
+            </div>
+            <p className="text-base text-gray-500 mb-2">house & electronic music</p>
+            <p className="text-gray-600">mixing music and performing at local venues and events in atlanta</p>
+          </div>
+          <div className="border-b border-gray-200 pb-6">
+            <h3 className="text-xl mb-1">running</h3>
+            <p className="text-base text-gray-500 mb-2">half marathon training</p>
+            <p className="text-gray-600">training for my first half marathon, currently running 15-20 miles per week</p>
+          </div>
+          <div>
+            <h3 className="text-xl mb-1">content creation</h3>
+            <p className="text-base text-gray-500 mb-2">tech & lifestyle</p>
+            <p className="text-gray-600">sharing my journey in tech, productivity tips, and lifestyle content across YouTube and Twitter</p>
+          </div>
+        </div>
+      </section>
+
       <footer className="text-center text-gray-500 text-sm mt-12">
         2025 © matthew chong
       </footer>
