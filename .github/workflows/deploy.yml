@@ -31,13 +31,10 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Prepare for deployment
-        run: |
-          mkdir -p out
-          touch out/.nojekyll
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out 
+          publish_dir: ./out
+          cname: ${{ secrets.CNAME }}
+          force_orphan: true 
