@@ -11,7 +11,7 @@ const nextConfig = {
     ],
   },
   basePath: process.env.NODE_ENV === 'production' ? '/personal-site' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://chongmatthew37.github.io/personal-site' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://matthwchong.github.io/personal-site' : '',
 }
 
 module.exports = nextConfig 
