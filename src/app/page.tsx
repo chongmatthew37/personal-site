@@ -56,7 +56,7 @@ export default function Home() {
         </div>
         <div className="flex-shrink-0 ml-8 w-48 h-48 rounded-full overflow-hidden relative">
           <Image
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/headshot.jpeg`}
+            src="/headshot.jpeg"
             alt="Matthew Chong"
             fill
             className="object-cover object-[center_35%]"
@@ -85,7 +85,7 @@ export default function Home() {
               </div>
               <div className="w-16 h-16 flex-shrink-0 relative">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/coinbase.png`}
+                  src="/coinbase.png"
                   alt="Coinbase logo"
                   fill
                   className="object-contain"
@@ -102,7 +102,7 @@ export default function Home() {
               </div>
               <div className="w-16 h-16 flex-shrink-0 relative">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/gtri.jpg`}
+                  src="/gtri.jpg"
                   alt="GTRI logo"
                   fill
                   className="object-contain"
@@ -119,7 +119,7 @@ export default function Home() {
               </div>
               <div className="w-16 h-16 flex-shrink-0 relative">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/honeywell.png`}
+                  src="/honeywell.png"
                   alt="Honeywell logo"
                   fill
                   className="object-contain"
@@ -136,7 +136,7 @@ export default function Home() {
               </div>
               <div className="w-16 h-16 flex-shrink-0 relative">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/dsgt.png`}
+                  src="/dsgt.png"
                   alt="DSGT logo"
                   fill
                   className="object-contain"
@@ -174,7 +174,7 @@ export default function Home() {
               </div>
               <div className="w-16 h-16 flex-shrink-0 relative">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/dockable.png`}
+                  src="/dockable.png"
                   alt="Dockable logo"
                   fill
                   className="object-contain"

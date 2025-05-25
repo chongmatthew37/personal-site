@@ -10,8 +10,8 @@ const nextConfig = {
       },
     ],
   },
-  basePath: '/personal-site',
-  assetPrefix: '/personal-site/',
+  basePath: process.env.NODE_ENV === 'production' ? '/personal-site' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://chongmatthew37.github.io/personal-site' : '',
 }
 
 module.exports = nextConfig 
