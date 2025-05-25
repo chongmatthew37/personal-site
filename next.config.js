@@ -10,8 +10,7 @@ const nextConfig = {
       },
     ],
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/personal-site' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://matthwchong.github.io/personal-site' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://matthwchong.github.io' : '',
 }
 
 module.exports = nextConfig 
