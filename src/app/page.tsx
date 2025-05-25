@@ -56,7 +56,7 @@ export default function Home() {
         </div>
         <div className="flex-shrink-0 ml-8 w-48 h-48 rounded-full overflow-hidden relative">
           <Image
-            src="/headshot.jpeg"
+            src="https://raw.githubusercontent.com/chongmatthew37/personal-site/main/public/headshot.jpeg"
             alt="Matthew Chong"
             fill
             className="object-cover object-[center_35%]"
@@ -85,7 +85,7 @@ export default function Home() {
               </div>
               <div className="w-16 h-16 flex-shrink-0 relative">
                 <Image
-                  src="/coinbase.png"
+                  src="https://raw.githubusercontent.com/chongmatthew37/personal-site/main/public/coinbase.png"
                   alt="Coinbase logo"
                   fill
                   className="object-contain"
@@ -102,7 +102,7 @@ export default function Home() {
               </div>
               <div className="w-16 h-16 flex-shrink-0 relative">
                 <Image
-                  src="/gtri.jpg"
+                  src="https://raw.githubusercontent.com/chongmatthew37/personal-site/main/public/gtri.jpg"
                   alt="GTRI logo"
                   fill
                   className="object-contain"
@@ -119,7 +119,7 @@ export default function Home() {
               </div>
               <div className="w-16 h-16 flex-shrink-0 relative">
                 <Image
-                  src="/honeywell.png"
+                  src="https://raw.githubusercontent.com/chongmatthew37/personal-site/main/public/honeywell.png"
                   alt="Honeywell logo"
                   fill
                   className="object-contain"
@@ -136,7 +136,7 @@ export default function Home() {
               </div>
               <div className="w-16 h-16 flex-shrink-0 relative">
                 <Image
-                  src="/dsgt.png"
+                  src="https://raw.githubusercontent.com/chongmatthew37/personal-site/main/public/dsgt.png"
                   alt="DSGT logo"
                   fill
                   className="object-contain"
@@ -174,7 +174,7 @@ export default function Home() {
               </div>
               <div className="w-16 h-16 flex-shrink-0 relative">
                 <Image
-                  src="/dockable.png"
+                  src="https://raw.githubusercontent.com/chongmatthew37/personal-site/main/public/dockable.png"
                   alt="Dockable logo"
                   fill
                   className="object-contain"
