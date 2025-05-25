@@ -11,8 +11,6 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    env:
-      NODE_ENV: production
 
     steps:
       - uses: actions/checkout@v3
@@ -23,26 +21,23 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Install dev dependencies
-        run: npm install -D tailwindcss postcss autoprefixer
+      - name: Clean install dependencies
+        run: |
+          npm cache clean --force
+          rm -rf node_modules
+          rm -rf .next
+          npm install --include=dev
 
       - name: Build
         run: npm run build
-        env:
-          NODE_ENV: production
 
       - name: Prepare for deployment
         run: |
-          touch ./dist/.nojekyll
-          cp -r ./dist/* ./out/
-          touch ./out/.nojekyll
+          mkdir -p out
+          touch out/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
-          cname: ${{ secrets.CNAME }} 
+          publish_dir: ./out 
