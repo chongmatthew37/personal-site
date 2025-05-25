@@ -186,7 +186,7 @@ export default function Home() {
             <div className="flex items-center gap-3 mb-1">
               <h3 className="text-xl">trippin</h3>
               <a
-                href="https://chongmatthew37.github.io/Trippin/"
+                href="https://matthwchong.github.io/Trippin/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-3 py-1 text-sm text-gray-600 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
