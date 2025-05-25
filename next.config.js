@@ -3,8 +3,15 @@ const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
   },
-  basePath: '/personal-site'
+  basePath: '/personal-site',
+  assetPrefix: '/personal-site/',
 }
 
 module.exports = nextConfig 

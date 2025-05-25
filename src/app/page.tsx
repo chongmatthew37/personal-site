@@ -54,13 +54,12 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="flex-shrink-0 ml-8 w-48 h-48 rounded-full overflow-hidden">
+        <div className="flex-shrink-0 ml-8 w-48 h-48 rounded-full overflow-hidden relative">
           <Image
-            src="/headshot.jpeg"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/headshot.jpeg`}
             alt="Matthew Chong"
-            width={192}
-            height={192}
-            className="w-full h-full object-cover object-[center_35%] scale-100"
+            fill
+            className="object-cover object-[center_35%]"
             priority
           />
         </div>
@@ -84,13 +83,12 @@ export default function Home() {
                 <p className="text-base text-gray-500 mb-2">may 2025 - present • san francisco, ca</p>
                 <p className="text-gray-600">platform identity access team</p>
               </div>
-              <div className="w-16 h-16 flex-shrink-0">
+              <div className="w-16 h-16 flex-shrink-0 relative">
                 <Image
-                  src="/coinbase.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/coinbase.png`}
                   alt="Coinbase logo"
-                  width={80}
-                  height={80}
-                  className="w-full h-full object-contain"
+                  fill
+                  className="object-contain"
                 />
               </div>
             </div>
@@ -102,13 +100,12 @@ export default function Home() {
                 <p className="text-base text-gray-500 mb-2">august 2024 - december 2024 • atlanta, ga</p>
                 <p className="text-gray-600">developed full-stack applications for US airforce training exercises</p>
               </div>
-              <div className="w-16 h-16 flex-shrink-0">
+              <div className="w-16 h-16 flex-shrink-0 relative">
                 <Image
-                  src="/gtri.jpg"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/gtri.jpg`}
                   alt="GTRI logo"
-                  width={80}
-                  height={80}
-                  className="w-full h-full object-contain"
+                  fill
+                  className="object-contain"
                 />
               </div>
             </div>
@@ -120,13 +117,12 @@ export default function Home() {
                 <p className="text-base text-gray-500 mb-2">may 2024 - august 2024 • atlanta, ga</p>
                 <p className="text-gray-600">cloud infrastructure and devops for large scale consumers</p>
               </div>
-              <div className="w-16 h-16 flex-shrink-0">
+              <div className="w-16 h-16 flex-shrink-0 relative">
                 <Image
-                  src="/honeywell.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/honeywell.png`}
                   alt="Honeywell logo"
-                  width={80}
-                  height={80}
-                  className="w-full h-full object-contain"
+                  fill
+                  className="object-contain"
                 />
               </div>
             </div>
@@ -138,13 +134,12 @@ export default function Home() {
                 <p className="text-base text-gray-500 mb-2">august 2022 - may 2023 • atlanta, ga</p>
                 <p className="text-gray-600">led development of hackathon participant portal</p>
               </div>
-              <div className="w-16 h-16 flex-shrink-0">
+              <div className="w-16 h-16 flex-shrink-0 relative">
                 <Image
-                  src="/dsgt.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/dsgt.png`}
                   alt="DSGT logo"
-                  width={80}
-                  height={80}
-                  className="w-full h-full object-contain"
+                  fill
+                  className="object-contain"
                 />
               </div>
             </div>
@@ -177,13 +172,12 @@ export default function Home() {
                 <p className="text-base text-gray-500 mb-2">founder • startup</p>
                 <p className="text-gray-600">dockable provides the integrative contract agent and infrastructure for contracts to be signed and generated anywhere, over $500+ in MRR</p>
               </div>
-              <div className="w-16 h-16 flex-shrink-0">
+              <div className="w-16 h-16 flex-shrink-0 relative">
                 <Image
-                  src="/dockable.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/dockable.png`}
                   alt="Dockable logo"
-                  width={80}
-                  height={80}
-                  className="w-full h-full object-contain"
+                  fill
+                  className="object-contain"
                 />
               </div>
             </div>
