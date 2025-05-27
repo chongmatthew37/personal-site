@@ -29,7 +29,7 @@ export default function Home() {
               linkedin
             </a>
             <a
-              href="https://github.com/chongmatthew37"
+              href="https://github.com/matthwchong"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 text-sm text-gray-600 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
